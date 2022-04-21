@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kakao_2022_react/static/css/main.cd93e4e8.css",
-    "main.js": "/kakao_2022_react/static/js/main.ce2ce1ce.js",
+    "main.js": "/kakao_2022_react/static/js/main.fc7c4377.js",
     "static/js/787.4d7683ae.chunk.js": "/kakao_2022_react/static/js/787.4d7683ae.chunk.js",
     "static/media/kakaofriends.png": "/kakao_2022_react/static/media/kakaofriends.84375bb9f89d79ccd760.png",
     "static/media/path.png": "/kakao_2022_react/static/media/path.7d00edf73f07bdcecc6d.png",
@@ -9,11 +9,11 @@
     "static/media/bg_default.png": "/kakao_2022_react/static/media/bg_default.82687b4e75ad8b89fa96.png",
     "index.html": "/kakao_2022_react/index.html",
     "main.cd93e4e8.css.map": "/kakao_2022_react/static/css/main.cd93e4e8.css.map",
-    "main.ce2ce1ce.js.map": "/kakao_2022_react/static/js/main.ce2ce1ce.js.map",
+    "main.fc7c4377.js.map": "/kakao_2022_react/static/js/main.fc7c4377.js.map",
     "787.4d7683ae.chunk.js.map": "/kakao_2022_react/static/js/787.4d7683ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd93e4e8.css",
-    "static/js/main.ce2ce1ce.js"
+    "static/js/main.fc7c4377.js"
   ]
 }
