@@ -1,0 +1,131 @@
+@charset "utf-8";
+#root > header.Chats {
+  background: #513736;
+}
+
+main#Chats {
+  position: relative;
+  top: 64px;
+  bottom: 0;
+  height: calc(100% - 64px);
+  overflow-y: auto;
+} 
+// 723
+#Chats {
+  .search_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7.3%;
+    min-height: 53px;
+    border-bottom: 1px solid #ebebeb;
+  }
+
+  .search_inner {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: #F1F2F4;
+    border-radius: 5px;
+
+    i {
+      font-size: 16px;
+      color: #BEBCC1;
+      align-self: center;
+      margin-left: 15px;
+    }
+
+    input {
+      width: 90%;
+      background: transparent;
+      border: none;
+      padding: 0 15px;
+
+      &::placeholder {
+        text-align: center;
+      }
+    }
+  }
+
+  .main_section {
+    ul {
+      display: flex;
+      flex-direction: column;
+
+      li {
+        border-bottom: 1px solid #ebebeb;
+
+        a {
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .chats_img {
+      display: block;
+      width: 50px;
+      height: 50px;
+      margin: 15px;
+      background: url(../images/empty.jpg) 50% (50% / cover) no-repeat;
+      border-radius: 25px;
+    }
+
+    .chats_cont {
+      width: 60%;
+      display: flex;
+      flex: auto;
+      flex-direction: column;
+    }
+
+    .chats_name {
+      width: 100%;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .chats_latest {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 12px;
+      margin-top: 5px;
+      color: #8E9399;
+    }
+
+    .chats_time {
+      font-size: 12px;
+      margin: 10px 10px 0 0;
+      color: #8E9399;
+    }
+  }
+
+  .chat_btn {
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      background-color: #FFE84C;
+      border-radius: 30px;
+      box-shadow: 0 2px 6px #0004;
+      font-size: 18px;
+      color: #513736;
+      transition: color 300ms, background 300ms;
+
+      &:hover {
+        background: #513736;
+        color: #FFE84C;
+      }
+    }
+  }
+}
