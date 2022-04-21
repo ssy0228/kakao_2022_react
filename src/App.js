@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.scss";
 import Friends from "./routes/Friends";
 import More from "./routes/More";
@@ -10,7 +10,7 @@ import Chat from "./routes/Chat";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Friends />} />
         <Route path="/Profile" element={<Profile />} />        
@@ -19,7 +19,7 @@ function App() {
         <Route path="/Find" element={<Find />} />
         <Route path="/More" element={<More />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
