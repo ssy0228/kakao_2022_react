@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.scss";
 import Friends from "./routes/Friends";
 import More from "./routes/More";
